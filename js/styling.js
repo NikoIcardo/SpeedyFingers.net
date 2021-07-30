@@ -169,11 +169,16 @@ function style() {
   
   //Logo
   if (localStorage.getItem("Logo Color") === "false") {
-    document.getElementById("Logo").src= "img\\Logo\\SF_logo_black.png";
-    document.getElementById("LogoColorWrite").innerHTML = "Black";   
+    document.getElementById("Logo").src= "img\\Logo\\SF_logo_black.png"; 
+    if(document.getElementById("LogoColorWrite") !== null){
+      document.getElementById("LogoColorWrite").innerHTML = "Black"; 
+    }  
   }else{
     document.getElementById("Logo").src= "img\\Logo\\SF_logo_white1.png";
-    document.getElementById("LogoColorWrite").innerHTML = "White"; 
+    if(document.getElementById("LogoColorWrite") !== null){
+      document.getElementById("LogoColorWrite").innerHTML = "White"; 
+    }
+    
   }
 }
 
