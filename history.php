@@ -3,7 +3,7 @@
 ?>
 <header>
     <nav class="navbar navbar-default navbar-expand-lg navbar-light fixed-top jeb">
-        <a class="mainBoxes logo" id = 'logo'>Speedy Fingers<br><small class = 'text-muted'> Typing Website</small></a> 
+        <a class="logo"><img src="img\Logo\SF_logo_white1.png" height="50" width="66" id='Logo' /></a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,6 +50,12 @@
             <br>
             <div class="card card-body  mainBoxes">
                 <h2>The Story of the Speedy Fingers Typing Test Website</h2>
+                <br>
+                <h3>7/29/2021</h3>
+                <p>
+                    The logo in the left hand side of the site has been updated to the logo that <a href="https://www.instagram.com/avesalexander/">Avery Alexander</a> designed for us! Thanks again Avery！
+                </p>
+                <br>
                 <br>
                 <h3>7/6/2021</h3>
                 <p>

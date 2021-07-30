@@ -6,7 +6,7 @@
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="Speedy Fingers Typing Website" />
     <meta property="og:description"        content="A free typing test to find your WPM and help you improve your speed." />
-    <meta property="og:image" content="https://speedyfingers.net/img/typing.jpg"/>
+    <meta property="og:image" content="./img/Logo/SF_logo_white1.png"/>
     <!-- Open Graph -->
     <meta charset = "utf-8">
     <meta name = 'viewport' content = "width=device-width, initial-scale=1.0">
@@ -50,6 +50,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Noto+Serif+TC:wght@200&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" href="./img/Logo/SF_logo_white1.png">
 </head> 
     <body id = 'Body' class = 'body'>
         <div id="fb-root"></div>

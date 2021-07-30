@@ -4,6 +4,7 @@ const getTextColor = document.querySelector('#GetTextColor');
 const getBoxColor = document.querySelector('#GetBoxColor');
 const getBGColor = document.querySelector('#GetBGColor');
 const getHighlight = document.querySelector('#GetHighlight');
+const getLogoColor = document.querySelector('#GetLogoColor');
 const nameDisplay = document.querySelector('#NameDisplay');
 const chart = document.querySelector('#Chart');
 const chart2 = document.querySelector('#Chart2');
@@ -26,6 +27,7 @@ function init () {
     getBoxColor.addEventListener('input', setBoxColor);
     getBGColor.addEventListener('input', setBGColor);
     getHighlight.addEventListener('input', setHighlight);
+    getLogoColor.addEventListener('input', setLogoColor); 
 }
 
 function getNamer () 
@@ -55,6 +57,18 @@ function setBGColor()
 function setHighlight()
 {
     localStorage.setItem('Highlight', getHighlight.value);
+}
+
+function setLogoColor()
+{
+    localStorage.setItem('Logo Color', getLogoColor.checked);
+    // if(document.getElementById('Logo').src = "img\\Logo\\SF_logo_black.png"){
+    //     localStorage.setItem('LogoColorWrite', 'White');
+    // }else{
+    //     localStorage.setItem('LogoColorWrite', 'Black');
+    // }
+    style();
+    
 }
 
 
