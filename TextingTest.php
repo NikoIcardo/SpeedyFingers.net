@@ -43,8 +43,7 @@
             <br>
             <input autocapitalize = 'off' type="text" class="form-control form-control-lg"
             placeholder="Start Typing..." id="input" style='visibility: invisible' autofocus /> 
-            <br>
-            <br><br>
+            
             <div class="row mt-5"> 
                 <div class="col-md-12">
                     <div  class="card card-body mainBoxes" id="status" style="display:none;">

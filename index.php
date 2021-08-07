@@ -40,8 +40,7 @@
             <div class="card card-body mainBoxes">
                 <p id="display-words" style="font-size: 25px;"></p>
             </div>
-    
-            <br><br>
+
             <div class="row mt-5"> 
                 <div class="col-md-12">
                     <div  class="card card-body mainBoxes" id="status" style="display:none;">

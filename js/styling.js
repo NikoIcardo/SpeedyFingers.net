@@ -80,9 +80,9 @@ function style() {
       all1[c].style.color = localStorage.getItem("Text Color");
     }
 
-    let all2 = document.getElementsByClassName("btn1");
+    let all2 = document.getElementsByClassName("btn");
     for (var c = 0; c < all2.length; c++) {
-      all2[c].setAttribute("style", TextColor);
+      all2[c].style.color = localStorage.getItem("Text Color");
     }
 
     let all3 = document.getElementsByClassName("spare");

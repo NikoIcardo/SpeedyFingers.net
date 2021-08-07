@@ -1,108 +1,109 @@
 :root {
-    /*
+  /*
     #3b4d5e
     */
-    --bgColor: #3b4d5e; 
+  --bgColor: #3b4d5e;
+  --txtColor: white;
 }
 
 body {
-    /* Keep the inherited background full size. */ 
-    background-size: cover;
-    justify-content: center;
-    background-attachment: fixed;
-    height: 100vh;
-    font-family: 'Baloo 2', cursive;
-
+  /* Keep the inherited background full size. */
+  background-size: cover;
+  justify-content: center;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: "Baloo 2", cursive;
 }
 
 .jeb {
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
-    border-radius: 5px;
-    position: relative;
-    z-index: 1;
-    background: inherit;
-    overflow: hidden;
-      
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
 }
 
 .jeb:before {
-    position: absolute;
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-    filter: blur(20px);
-    margin: -20px;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  filter: blur(20px);
+  margin: -20px;
 }
 
 .jeb2 {
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
-    border-radius: 5px;
-    position: relative;
-    z-index: 10;
-    background: inherit;
-    overflow: hidden;
-      
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 10;
+  background: inherit;
+  overflow: hidden;
 }
 .jeb2:before {
-    position: absolute;
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-    filter: blur(100px);
-    margin: -20px;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  filter: blur(100px);
+  margin: -20px;
 }
-.Nav{
-    box-shadow: 0 0 .05rem 0 rgba(20, 0, 0, .2);   
-    border-radius: 20px;
-    position: relative;
-    z-index: 1;
-    background: inherit;
-    overflow: hidden;
-    margin: 2px;
-    padding: 5px;
-    /* new */
-    background-color: var(--bgColor);
- 
-    
-    
-    
+.Nav {
+  box-shadow: 0 0 0.05rem 0 rgba(20, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  margin: 2px;
+  padding: 5px;
+  /* new */
+  background-color: var(--bgColor);
 }
 .Nav:hover {
-    box-shadow: 1px 1px .2rem 0 rgba(17, 120, 236, 0.5);  
-    /* new */
-    background-color: var(--bgColor);
-    
+  box-shadow: 1px 1px 0.2rem 0 rgba(17, 120, 236, 0.5);
+  /* new */
+  background-color: var(--bgColor);
 }
 .active {
-    box-shadow: inset 1px 1px .3rem 0 rgba(17, 120, 236, .5);
-    /* new , old:  background-color:rgba(17, 120, 236, 0.1);*/
-    background-color: var(--bgColor);
-
+  box-shadow: inset 1px 1px 0.3rem 0 rgba(17, 120, 236, 0.5);
+  /* new , old:  background-color:rgba(17, 120, 236, 0.1);*/
+  background-color: var(--bgColor);
 }
 
 .mainBoxes {
-    background-image: url(''); /* old color #5a875a */ 
-    background-size: cover;
-    border-radius: 7px;
+  background-image: url(""); /* old color #5a875a */
+  background-size: cover;
+  border-radius: 7px;
 }
 
+.btn {
+    color: none; 
+}
 
-.btn1 {
-    background-color: var(--bgColor); 
-    border-radius: 20px;
-    margin: 5px;
+.btn:hover {
+    color: var(--textColor); 
+}
+
+.bt1 {
+  background-color: var(--bgColor);
+  border-radius: 20px;
+  margin: 5px;
+  border-color: none;
+  border: none;
 }
 /*Top Left logo*/
 .logo {
-    padding: 6px;
-    color: blue; 
-    margin-right: 5px;
+  padding: 6px;
+  color: blue;
+  margin-right: 5px;
 }
