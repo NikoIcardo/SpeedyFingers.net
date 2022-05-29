@@ -51,16 +51,16 @@
             <div class="card card-body  mainBoxes">
                 <h2>The Story of the Speedy Fingers Typing Test Website</h2>
                 <br>
-                <h3>7/29/2021</h3>
-                <p>
-                    The logo in the left hand side of the site has been updated to the logo that <a href="https://www.instagram.com/avesalexander/">Avery Alexander</a> designed for us! Thanks again Avery！
-                </p>
-                <br>
-                <br>
                 <h3>5/28/2022</h3>
                 <p>
                     Its been a while since we last updated. A lot has been going on! We had been told by a reviewer of our site that we may have had an incorrect defintion of wpm. Who would have thought that its not 
                     words / minute! Instead its the total character count including all spaces and punctuation divided by 5 to represent the average length of a word. That's now been updated! 
+                </p>
+                <br>
+                <br>
+                <h3>7/29/2021</h3>
+                <p>
+                    The logo in the left hand side of the site has been updated to the logo that <a href="https://www.instagram.com/avesalexander/">Avery Alexander</a> designed for us! Thanks again Avery！
                 </p>
                 <br>
                 <br>
