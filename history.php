@@ -57,6 +57,13 @@
                 </p>
                 <br>
                 <br>
+                <h3>5/28/2022</h3>
+                <p>
+                    Its been a while since we last updated. A lot has been going on! We had been told by a reviewer of our site that we may have had an incorrect defintion of wpm. Who would have thought that its not 
+                    words / minute! Instead its the total character count including all spaces and punctuation divided by 5 to represent the average length of a word. That's now been updated! 
+                </p>
+                <br>
+                <br>
                 <h3>7/6/2021</h3>
                 <p>
                     Hello all! If you were following our instagram, you would know that I've been recently been working on building a typing test with the 1000 most common words in the english language. 
